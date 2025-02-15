@@ -101,9 +101,6 @@ function calculateMinimumCost(order) {
     return totalCost;
 }
 
-// const order = { "A": 1,"B": 1 ,"C":1,"D":1};
-// const minimumCost = calculateMinimumCost(order);
-// console.log(`Minimum cost for the given order: ${minimumCost}`);
 
 
 app.post("/calculate", (req, res) => {
